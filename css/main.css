@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0 0.5em;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+   
+}
+
+.wrapper {
+    min-height: 90vh;
+    
+}
+
+h1,h2,h3,h4,p  {
+    letter-spacing: normal;
+}
+
+header {
+	height: 52px;
+	background-color: #2a2a2a;
+}
+
+nav {
+	display: flex;
+}
+html,body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	background: rgb(18,18,18);
+	color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    flex-grow: 1;
+    padding-top: 110px;
+}
+
+a {
+    outline: none;
+    color: #F24751;
+    text-decoration: none;
+}
+
+.row {
+    padding:  0 10px;
+}
+.brand-logo {
+	padding-left: 15px;
+}
+.brand-logo img {
+	height: 36px;
+	width: 36px;
+	margin-top: 8px;
+}
+
+.nav_list {
+	display: flex;
+	line-height: 52px;
+	list-style: none;
+	font-size: 0.688em;
+	padding-left: 15px;
+}
+
+.nav_list_p {
+	text-transform: uppercase;
+}
+
+.nav_right {
+	position: absolute;
+	right: 0;
+	font-size: 0.563em;
+}
+
+.nav_right li span {
+    line-height: 52px;
+    max-height: 52px;
+    padding: 0 10px;
+}
+
+.nav_right li {
+    line-height: 52px;
+    max-height: 52px;
+}
+
+.nav_list_prime {
+	padding: 0 11px;
+	text-transform: uppercase;
+	background-color: #F24751;
+	color: #fff;
+}
+
+.nav_list_p_link {
+	text-decoration: none;
+	color: #ccc;
+	padding: 18.5px 10px;
+}
+
+.nav_list_p_link:hover {
+    color: #f5f5f5;
+}
+
+.nav_right_link {
+	text-decoration: none;
+	color: #fff;
+	padding: 18.5px 0;
+}
+
+.bartop {
+	padding: 25px 0;
+}
+
+.bartop_menu {
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}
+
+.bartop_menu li a {
+	text-decoration: none;
+}
+.bartop_menu_home {
+	padding-right: 20px;
+}
+
+.bartop_menu_home a {
+    color: #f5f5f5;
+}
+
+.bartop_menu_catalog a {
+    color: #ccc;
+}
+
+.sezono {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	height: 70px;
+	border-radius: 0.2em;
+	background-color: #FFE53B;
+    background-image: linear-gradient(205deg, #FFE53B 0%, #f24751 74%);
+
+}
+
+.sezono_logo {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.2em;
+}
+
+.sezono_nomo {
+	display: flex;
+	padding-top: 13px;
+	padding-left: 15px;
+	color: #fff;
+}
+.rekomenda_rubriko {
+    padding-top: 25px;
+}
+
+.card_href {
+    text-decoration: none;
+    color: #ccc;
+}
+.card-logo {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    opacity: 1;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+
+.nomo {
+    font-size: 11px;
+}
+
+.rekomenda_rubriko_nomo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.indsbor {
+    width: 100%;
+    border: 0;
+    background-image: linear-gradient(132deg, #16A085 0%, #F4D03F 100%);
+}
+
+footer {
+    background-color: #2a2a2a;
+    font-size: 13px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.nav-footer {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.nav-footer_list {
+    display: flex;
+    list-style: none;
+}
+.nav-footer_list li {
+    padding-right:10px;
+}
+
+.foote_center_text {
+    text-align: center;
+}
+
+.titlemob {
+    height: 36px;
+    text-align: center;
+}
+
+.titlemob span {
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.navmob {
+    display: flex;
+    overflow-x: auto;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #2A2A2A;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+
+.nav__link--active {
+    color: #fff;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+
+
+
+.background-image {
+    position: absolute;
+    background-image: url("../img/Tanaka-Vol-8-Img-2.webp");
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-position: 20% 10%;
+    z-index: -1;
+    filter: brightness(45%);
+}
+
+
+
+.background-image::after {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(269.38deg,rgba(16,16,16,.8) 10.93%,rgba(16,16,16,.176) 51.19%);
+    linear-gradient(180deg,rgba(16,16,16,.26) 28.84%,#101010);
+    -webkit-transform: matrix(-1,0,0,1,0,0);
+    transform: matrix(-1,0,0,1,0,0);
+}
+
+
+.nonotop {
+    position: absolute;
+    z-index: -1;
+    padding: 98px 30px 0 30px;
+    position: relative;
+}
+
+.nonotop .nonoh .content .nonotitle {
+    color: #fff;
+    max-width: 50%;
+    margin-bottom: 20px;
+    font-family: Gilroy-Bold;
+    line-height: 100%;
+}
+
+.nonoh {
+    font-size: 68px;
+    line-height: 100%;
+    max-width: 55%;
+    margin-bottom: 40px;
+}
+
+.nonos {
+    font-size: 24px;
+    margin-left: 6px;
+    padding-top: 69px;
+}
+
+.nonoa {
+    display: table;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 0.2em;
+}
+
+.hr-line {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid #333;
+}
+
+
+
+ dd {
+    color: #adb7bd;
+ }

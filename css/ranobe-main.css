@@ -1,0 +1,57 @@
+main {
+    padding-top: 25px!important;
+}
+
+
+.info_ranobe_logo img {
+	width: 100%;
+}
+
+.info_ranobe_tabl {
+	padding-left: 25px;
+}
+
+.ranobe-title {
+	margin: 0;
+}
+
+.description-ranobe {
+	margin-left: 25px;
+}
+
+.aplayer {
+	background-color: #2a2a2a!important;
+}
+
+
+.aplayer .aplayer-list ol li {
+	border-top: 1px solid #5a5a5a!important;
+}
+
+.aplayer.aplayer-withlist .aplayer-info {
+	border-bottom: none!important;
+}
+
+.aplayer .aplayer-list ol li.aplayer-list-light {
+	background: none!important;
+}
+
+.aplayer .aplayer-list ol li:hover {
+	background: #5a5a5a!important;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+	fill: #999!important;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon:hover path {
+	fill: #f5f5f5!important;
+}
+
+.player-bc {
+	padding-top: 25px;
+}
+
+.tom-a span {
+	
+}
